@@ -2,6 +2,12 @@
 WordPress Public JS and CSS 
 
 ```PHP
+ // https://woocommerce.wp-a2z.org/oik_api/wc_enqueue_js/
+ // https://wp-kama.com/plugin/woocommerce/function/wc_enqueue_js
+ wc_enqueue_js();
+```
+
+```PHP
 // Add public assets no framework or boilerplate
 // JS / script
 add_action( 'wp_enqueue_scripts', 'myplugin_enqueue_script_public' );
