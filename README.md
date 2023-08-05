@@ -50,3 +50,10 @@ function myplugin_enqueue_style_public() {
 	wp_enqueue_style( 'myplugin-public', $src, array(), null, 'all' );
 }
 ```
+
+<br /> Similar:
+<br /> CSS Inline: 
+<br /> https://developer.wordpress.org/reference/hooks/wp_print_styles/
+
+<br /> Script Inline: 
+<br /> https://developer.wordpress.org/reference/hooks/wp_print_scripts/
